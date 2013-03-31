@@ -31,71 +31,142 @@
 			    <li><a href="#" class="first">Sign In</a></li>
 			</ul>
 		    </div>		   
-		    <div class="PrimaryLinks RightLinks span3">					
+		    <div class="PrimaryLinks RightLinks span2 text-right">					
 			<ul>
-			    <li> <a class="selected" href="#">Home </a></li>
-			    <li><a href="#">Page 1</a></li>
-			    <li><a href="#">Page 2</a></li>
-			    <li><a href="#">Page 3</a></li>
-			    <li><a href="#">Page 4</a></li>
-			    <li><a href="#">Page 5</a></li>
+			    <li> <a class="selected" href="#">About </a></li>
+			    <li><a href="#">Blog</a></li>
+			    <li><a href="#">Events</a></li>
+			    <li><a href="#">Help</a></li>
 			</ul>
 		    </div>
 		     <div class="clearfix"></div>
 		</div><!-- /navigation -->
 		<div class="TitleSection">
 		    <div class="title span4">
-			<span class="heading1 MainTitle span1">Welcome</span>
+			<span class="heading1 MainTitle span1">Craigslist . </span>
 			<span class="small span1 superscript">Central NJ</span>
 		    </div>
 		</div>
-		<div class="SearchSection">
-		    <!--
-		    <div class="navigation">
-			<div class="PrimaryLinks LeftLinks span1">
-			    <ul>
-				<li><a href="#">Sign In</a></li>
-			    </ul>
-			</div>		   
-			<div class="PrimaryLinks RightLinks span3">					
-			    <ul>
-				<li class="first selected"> <a href="#">Home </a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-				<li><a href="#">Page 4</a></li>
-				<li><a href="#">Page 5</a></li>
-			    </ul>
-			</div>
-			<div class="clearfix"></div>
-		    </div><!--Navigation-->
+		<div class="SearchSection text-right">
+		    <input type="text" class="input-big" placeholder="I'm Looking for">
+		    <select name="SearchCaterogy" class="input-big">
+		    	<option value="0">All Categories</option>		    	
+		    	<option value="1">Electronics</option>
+		    </select>
+		    <input type="text" class="input-big" name="Zip" placeholder="Zip Code or City">
+		    <button name="Search" class="btn btn-primary">Search</button>
+		    
+ 		    <!--Navigation-->
 		    
 		</div> 
 	    </div><!-- /header -->
 	    
 	    <!-- Main Content Section -->
 	    <div id="content" class="span4">		
-		<div class="LeftSidebar span0">
-		    <p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur adipiscing augue at sem ullamcorper eu sollicitudin felis molestie. Aenean tempus libero vel sem fringilla ac ullamcorper tellus mollis. Donec a odio lorem. Quisque accumsan, ligula ac malesuada lobortis, eros diam tempor justo, quis scelerisque urna elit ut felis. Fusce vestibulum augue sed elit ullamcorper eu porta massa venenatis. Cras a lorem ante. Morbi ac varius sem. Proin posuere tincidunt ligula, interdum aliquam nunc rhoncus quis.
-		    </p>
-		</div>
-		<div class="MainContent span3">
-		    <p>
-			Suspendisse ligula dolor, sodales non eleifend adipiscing, dapibus ultrices tellus. Vestibulum tortor eros, posuere in laoreet quis, condimentum non velit. Aliquam sollicitudin aliquam mi ut facilisis. Donec ornare risus vitae magna dapibus ac fermentum felis tincidunt. Vestibulum rhoncus nisl quis nisl ultricies eget aliquet dui dignissim. Etiam sed orci sem, ac consequat tellus. Vivamus lectus sem, euismod in luctus lobortis, posuere eget velit. Mauris eros lorem, vehicula at pulvinar vitae, ultrices sed diam. Nulla mi lectus, volutpat vitae euismod at, blandit tincidunt nisi. Sed condimentum risus ac metus lacinia at volutpat elit molestie. Pellentesque erat quam, interdum eu bibendum sed, tincidunt in dui. Morbi at nunc et metus laoreet pellentesque. Praesent pharetra cursus auctor. In eleifend ultricies risus, nec porttitor risus lobortis eget. Nulla et dolor lorem.
-
-Sed quis odio elit, sed tempus odio. Aenean nunc lorem, dignissim et malesuada a, dapibus eu massa. Maecenas dictum magna non lorem dapibus aliquam. Curabitur at lobortis odio. Etiam faucibus dolor ante, at vestibulum nibh. Etiam massa dolor, mattis non congue at, tristique nec justo. Nam scelerisque aliquam enim, eget hendrerit ipsum commodo id.
-
-Pellentesque quam lectus, porta ac vestibulum non, aliquet eget velit. Nulla at lacus vel ipsum mattis volutpat. Maecenas ornare, nibh eget semper vestibulum, ipsum libero lacinia mi, ac cursus eros mi sagittis diam. Aenean pellentesque tincidunt magna, sit amet tempor magna lacinia id. Ut mauris est, ultrices vitae blandit eget, commodo id arcu. Quisque a quam ac arcu suscipit elementum sit amet sed metus. Vestibulum tincidunt, quam id accumsan convallis, enim eros dictum ante, quis adipiscing enim libero ac ante. Sed vitae interdum dolor. Nam odio nulla, porttitor ac dignissim eget, facilisis sed justo. Curabitur luctus, tortor a varius venenatis, erat quam volutpat arcu, ut elementum sem leo sit amet dui.
-		    </p>
-		</div>
-		
-		<div class="RightSidebar span1">
-		    <p>
-			Aenean libero mi, suscipit id volutpat vel, convallis at dolor. Sed luctus ullamcorper sodales. Fusce congue, eros in ultricies viverra, purus nunc interdum elit, eu viverra urna magna sed velit. Donec eros leo, dictum a semper in, eleifend ut dolor. Maecenas at lectus mauris, sed varius ligula. Duis enim odio, viverra ac scelerisque at, blandit in purus. Fusce vitae leo vitae arcu viverra ultricies et et mauris.
-		    </p>
-		</div>
-		<div class="clearfix"></div>
+			<div class="LeftSidebar span1">
+				<p>
+					<span class="h4">Categories</span>
+				</p>
+			    <p>
+			    	<ul class="VerticalMenu">
+			    		<li><a href="#"> Community </a></li>			    		
+			    		<li><a href="#"> Housing </a></li>			    		
+			    		<li><a href="#"> Services</a></li>			    		
+			    		<li><a href="#"> Jobs</a></li>			    		
+			    		<li><a href="#"> Electronics</a></li>			    		
+			    		<li><a href="#"> Home &amp; Decor</a></li>			    		
+			    		<li><a href="#"> Motor</a></li>			    		
+			    		<li><a href="#"> Sporting Goods</a></li>			    		
+			    	</ul>
+			    </p>
+			</div>
+			<div class="MainContent span3">
+			    <p>
+					<span class="h4">Latest in Electronics</span>
+			    </p>
+			    <p class="text-right">
+		    		<table cellpadding="5" width="90%" class="ProductGrid">
+		    			<tbody>
+			    			<tr>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    			</tr>
+		    			</tbody>
+		    		</table>
+		    		<div class="clearfix"></div>
+			    </p>
+			    <p>
+					<span class="h4">Latest in Motor</span>
+			    </p>
+			    <p class="text-right">
+		    		<table cellpadding="5" width="90%" class="ProductGrid"> 
+		    			<tbody>
+			    			<tr>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    				<td width="33%"> 
+			    					<div class="ProductImage" >
+			    						<img alt="Product" src="img/stock-photo-18509312-apple-macbook-pro.jpg">
+			    					</div>
+			    					<div class="ProductDescription">
+			    						<a href="#">13'' Macbook Pro</a>
+			    						<div class="ProductPrice"> $1,250 | <a href="#">Bloomfield, NJ</a></div>		    						
+			    					</div>
+		    					</td>
+			    			</tr>
+		    			</tbody>
+		    		</table>
+		    		<div class="clearfix"></div>
+			    </p>
+			</div>
+			
+			<!---<div class="RightSidebar span1">
+			    <p>
+				Aenean libero mi, suscipit id volutpat vel, convallis at dolor. Sed luctus ullamcorper sodales. Fusce congue, eros in ultricies viverra, purus nunc interdum elit, eu viverra urna magna sed velit. Donec eros leo, dictum a semper in, eleifend ut dolor. Maecenas at lectus mauris, sed varius ligula. Duis enim odio, viverra ac scelerisque at, blandit in purus. Fusce vitae leo vitae arcu viverra ultricies et et mauris.
+			    </p>
+			</div> --->
+			<div class="clearfix"></div>
 	    </div><!-- /content -->
 	    
 	    <!-- Footer -->
@@ -131,12 +202,12 @@ Pellentesque quam lectus, porta ac vestibulum non, aliquet eget velit. Nulla at 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        </script>-->
     </body>
 </html>
